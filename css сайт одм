@@ -256,7 +256,7 @@ ul {
     flex-wrap: wrap;
 }
 
-#contacts {
+#contacts {                                   контакты
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     background-color: #424242;
