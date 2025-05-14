@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+main {       /**/
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.container {              /*сетка*/
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+#cover,#about-us{                 /*отступ между блоками*/
+    margin-bottom: 100px;
+}
+
+header {                               /*шапка*/
+    background-color: #2033af;
+}
+
+header {                                      /**/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cover {                                         /*текст на главной*/
+    background-image: url(images/home.png);
+    background-size: cover;
+    height: 763px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+
+h1,p,a, button {                                 /*нахождение текста*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {                             /*кондитерские курсы в москве*/
+    font-style: normal;
+    font-weight: 650px;
+    font-size: 20px;
+}
+
+p {                            /*курсы в мокве*/
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+a {                                /*шапка*/
+    margin-left: 33px;
+    text-decoration: none;
+    color:black;
+    font-style: normal;
+    font-weight: 25px;
+    font-size: 20px
+
+}
+
+.myButton {                              /*кнопка Все курсы школы (гланая)*/
+    background-color: #21943f;
+    border-radius: 15px;
+    border: 1px solid #148f20;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 27px 54px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #2f6627;
+}
+
+.myButton:hover {                         /**/
+    background-color: #95cc78;
+}
+
+.myButton:active {                 /**/
+    position: relative;
+    top: 1px;
+}
+
+.diary { 
+    display: flex; 
+    justify-content: center;
+}
+
+.card-description {
+    padding: 5px 25px 5px 25px;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#form {                                          /*обратная связь */
+    background-color: #424242;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card {
+    padding-bottom: 15px;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-name {
+    font-size: 12px;
+}
+.blog school{
+    float: left 15px;
+}
+
+.blog-description {
+    display: flex;
+    align-items: center;
+}
+
+.blog-text {
+    font-size: 18px;
+    padding-left: 22px;
+}
+
+.buy {                           /*кнопка купит по карточками*/        
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+
+
+.feedback-name {                           /* обратная связь(надпись) */      
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+ .form-elements {                       /* обратная связь данные  */        
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 500px;
+} 
+
+.email-input,
+.text-input {                            /* обратная связь данные  */ 
+    border: 1px solid #EEEEEE;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.text-input {                      /* обратная связь данные  */ 
+    height: 75px;
+    resize: vertical;
+    vertical-align: top;
+    text-align: start;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.submit {                           /* кнопка отправить*/      
+    background-color: #2acb4d;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #000000;
+    width: 200px;
+    height: 75px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-left: 130px;
+}
+
+
+.about-us-content {        /* О нас*/
+    display: flex;
+    align-items: center;
+}
+
+.about-us-text {        /* О нас размер текста*/        
+    padding-left: 52px;
+    font-size: 24px;
+} 
+
+.call {                                /*Кнопка позвонить и записаться*/
+    background-color: #008E11;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 250px;
+    height: 50px;
+    border: none;
+}
